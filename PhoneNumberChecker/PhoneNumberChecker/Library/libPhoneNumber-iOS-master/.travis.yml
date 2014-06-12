@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: libPhoneNumber.xcodeproj # path to your xcodeproj folder
+xcode_scheme: libPhoneNumber
+script: xcodebuild -project libPhoneNumber.xcodeproj -target libPhoneNumberTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=N
